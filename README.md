@@ -8,15 +8,13 @@ debe generar una boleta de ventas donde debe mostrar subtotal, IGV y total a pag
 
 ## Requerimientos
 
-- Python 3.10.6 (Se recomienda usar un administrador de entornos como `pyenv` o `conda`)
+- Python 3.10.6 (Se recomienda usar un administrador de entornos como `venv`)
 
 ## Instrucciones para configurar el entorno de desarrollo
 
-1. Clona este repositorio en tu máquina local:
+1. Clona este repositorio en tu máquina local, o puedes descargar el .zip file sin problemas:
 
 ´git clone <https://github.com/Eliot-Arias/RestaurantPythonProject>´
-
-1.1 O puedes descargar el .zip file sin problemas
 
 2. Ve al directorio del proyecto:
 
@@ -30,8 +28,17 @@ debe generar una boleta de ventas donde debe mostrar subtotal, IGV y total a pag
 
 ´ source .\Restaurante\Scripts\activate´
 
-"TrabajoFinal" es el nombre del proyecto, pero puedes cambiar el nombre, si es que creaste el proyecto con un nombre diferente.
+- "TrabajoFinal" es el nombre del proyecto, pero puedes cambiar el nombre, si es que creaste el proyecto con un nombre diferente.
 
 5. Si el comando funciono debera aparecerte el nombre del proyecto entre parentesis en la consola, tal y como se muestra en la imagen:
 
 [![Imagen referencial](entorno.png)]
+
+6. Acontinuación se descargaran algunas de las dependencias del proyecto:
+
+- primero se actualiza ´pip´: ´python.exe -m pip install --upgrade pip´
+
+- despues se instala la dependencia: pip install prettytable
+
+7. Ejecutar el proyecto.
+

@@ -1,0 +1,13 @@
+# Ignorar archivos de configuración
+config.ini
+settings.json
+pyvenv.cfg
+# Ignorar carpeta de dependencias
+venv/
+
+# Ignorar archivos compilados
+*.pyc
+__pycache__/
+include/
+Lib/
+Scripts/

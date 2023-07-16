@@ -1,3 +1,5 @@
+#importando el paquete sys, que se usa para cerrar el programa
+import sys
 #Interfaz Inicial
 def showMenu():
     print("| ========================= |")
@@ -23,6 +25,7 @@ def showMenu():
             break
         elif opcion == "D":
             print("Adios")
+            #con esta linea se termina el programa, cuando el usuario asi lo quiera
             sys.exit()
         else:
             print("Opcion Invalida, Intente de nuevo\n")
@@ -97,7 +100,7 @@ def showAlmuerzo():
     
     
     while True:
-        opcion = input("Seleccione un almuerzo: ").upper()     
+        opcion = input("Seleccione un almuerzo: ").upper()        
         if opcion in almuerzo:
             menu = almuerzo[opcion]['precio']
             showBoleta(menu)

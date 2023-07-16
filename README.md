@@ -1,6 +1,10 @@
-# Nombre del Proyecto
+# Trabajo Final del Curso
 
-Breve descripción del proyecto.
+El restaurante Punto Azul necesita mejorar la gestión, para esto se ha decidido sistematizar 
+el proceso de facturación utilizando el lenguaje de programación de Python. El sistema debe 
+tener un menú principal de 3 categorías desayuno, almuerzo, cena. Cada categoría debe 
+tener submenús que permita elegir el Ítem deseado. Cuando finalice la compra el cliente, 
+debe generar una boleta de ventas donde debe mostrar subtotal, IGV y total a pagar.
 
 ## Requerimientos
 
@@ -10,10 +14,24 @@ Breve descripción del proyecto.
 
 1. Clona este repositorio en tu máquina local:
 
-git clone <https://github.com/Eliot-Arias/RestaurantPythonProject>
+´git clone <https://github.com/Eliot-Arias/RestaurantPythonProject>´
 
 1.1 O puedes descargar el .zip file sin problemas
 
 2. Ve al directorio del proyecto:
 
-'cd nombre-del-proyecto'
+´cd nombre-del-proyecto´
+
+3. Crea un entorno virtual para el proyecto. Puedes hacerlo de la siguiente manera:
+
+´python -m venv Restaunte´
+
+4. Se creara una serie de archivos, para poder inicializar el entorno virtual y poder ejecutar el proyecto, sigue este paso:
+
+´ source .\Restaurante\Scripts\activate´
+
+"TrabajoFinal" es el nombre del proyecto, pero puedes cambiar el nombre, si es que creaste el proyecto con un nombre diferente.
+
+5. Si el comando funciono debera aparecerte el nombre del proyecto entre parentesis en la consola, tal y como se muestra en la imagen:
+
+[![Imagen referencial](entorno.png)]

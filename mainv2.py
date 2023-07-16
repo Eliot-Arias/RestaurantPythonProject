@@ -34,6 +34,7 @@ def showMenu():
             
 #Interfaz Desayuno
 def showDesayuno():
+    #Se crea el diccionario "desayuno" donde se pone la clave de cada opcion, y el producto con su respectivo precio
     desayuno = {
         "A": {"producto": "Café", "precio": 4.50},
         "B": {"producto": "Chocolate", "precio": 5.00},
@@ -59,9 +60,15 @@ def showDesayuno():
     
     
     while True:
+        # la funcion.upper() convierte la letra ingresada por el usuario a mayuscula para no tener problemas con el case sentive del programa
         opcion = input("Seleccione un desayuno: ").upper() 
+        
+        # dentro de esta condicional se usa la palabra reservada ´in´ para verificar
+        # sin el valor ingresado por el usuario este presente dentro del diccionario.
         if opcion in desayuno:
+            #en la variable menú se guarda el resultado de buscar dentro del diccionario con la clave 'opcion' y el valor de 'precio'
             menu = desayuno[opcion]['precio']
+            #se manda como parametro la variable 'menu' para poder calular la boleta.
             showBoleta(menu)
             break
         elif opcion == "J":
